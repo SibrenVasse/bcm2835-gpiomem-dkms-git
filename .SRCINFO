@@ -1,0 +1,17 @@
+pkgbase = bcm2835-gpiomem-dkms-git
+	pkgdesc = BCM2835 gpiomem dkms kernel module (DKMS)
+	pkgver = r1.52825a3
+	pkgrel = 1
+	url = https://github.com/SibrenVasse/bcm2835-gpiomem
+	arch = aarch64
+	license = GPL2
+	depends = dkms
+	provides = bcm2835-gpiomem-dkms
+	conflicts = bcm2835-gpiomem-git
+	source = bcm2835-gpiomem-dkms::git+https://github.com/SibrenVasse/bcm2835-gpiomem.git
+	source = dkms.conf
+	sha256sums = SKIP
+	sha256sums = e62c30829136341bb043e5087a8059a00d30f60db8d4d52d2a79070c41c5862b
+
+pkgname = bcm2835-gpiomem-dkms-git
+
